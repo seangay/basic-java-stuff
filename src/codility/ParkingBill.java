@@ -59,8 +59,8 @@ public class ParkingBill {
         private static final int ENTRY_FEE = 2;
         private static final int FIRST_HOUR_COST = 3;
         private static final int INITIAL_FEE = ENTRY_FEE + FIRST_HOUR_COST;
-        public static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("HH:mm");
-        public static final float MINUTES_PER_HOUR = 60f;
+        private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("HH:mm");
+        private static final float MINUTES_PER_HOUR = 60f;
 
         public int solution(String entryTime, String exitTime) {
             var totalHours = totalHours(entryTime, exitTime);
