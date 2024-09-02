@@ -7,24 +7,48 @@ import java.util.List;
  * See <a href="https://app.codility.com/programmers/trainings/7/tree_longest_zig_zag/">the Tree Longest ZigZag</a>
  * exercise on <a href="https://app.codility.com/programmers">https://app.codility.com/programmers</a> for details.
  */
-public class TreeWalkerRunner {
+public class LongestZigZagLength {
     public static class Tree {
         int x;
         Tree l;
         Tree r;
+
+        @Override
+        public String toString() {
+            return toStringHelper(this, 0);
+        }
+
+        private String toStringHelper(Tree node, int depth) {
+            if (node == null) {
+                return "----";
+            }
+
+            var sb = new StringBuilder();
+
+            // Indentation based on the depth of the tree
+            var indent = "  ".repeat(depth);
+
+            sb.append(indent).append(node.x).append("\n");
+
+            // Left subtree
+            if (node.l != null) {
+                sb.append(indent).append("L: ").append(toStringHelper(node.l, depth + 1));
+            }
+
+            // Right subtree
+            if (node.r != null) {
+                sb.append(indent).append("R: ").append(toStringHelper(node.r, depth + 1));
+            }
+
+            return sb.toString();
+        }
     }
 
-    public static void main(String[] args) {
-        var solution = new Solution();
-        System.out.println("solution.solution(new Tree()); = " + solution.solution(new Tree()));
-    }
-
-    private static class Solution {
+    static class Solution {
         public int solution(Tree T) {
             var treeWalker = new TreeWalker(T, false);
             treeWalker.walkTree();
 
-            //once that is done we can ask the tree walker questions...
             return treeWalker.getLongestPath().maxZigZagLength();
         }
 

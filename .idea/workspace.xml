@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c04385cc-1ffa-4128-a629-3e6ec030414d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="c04385cc-1ffa-4128-a629-3e6ec030414d" name="Changes" comment="chore: add gradle as the build tool">
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/codility/LongestZigZagLengthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/codility/ParkingBillTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-java-stuff.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codility/ParkingBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/codility/ParkingBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codility/TreeWalkerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/codility/LongestZigZagLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neetcode/DynamicArrayRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/neetcode/DynamicArrayRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.AppTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="codility" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.LongestZigZagLengthTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="WIDTH" value="400" />
@@ -108,32 +115,16 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method />
     </configuration>
-    <configuration name="DynamicArrayRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="neetcode.DynamicArrayRunner" />
-      <module name="basic-java-stuff" />
+    <configuration name="LongestZigZagLengthTest$TreeParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.LongestZigZagLengthTest$TreeParser" />
+      <module name="basic-java-stuff.app.test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="neetcode.*" />
+          <option name="PATTERN" value="codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="basic-java-stuff" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.ParkingBill" />
-      <module name="basic-java-stuff" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,6 +181,52 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LongestZigZagLengthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;codility.LongestZigZagLengthTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParkingBillTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;codility.ParkingBillTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -217,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LongestZigZagLengthTest" />
+        <item itemvalue="Application.LongestZigZagLengthTest$TreeParser" />
+        <item itemvalue="Gradle.ParkingBillTest" />
         <item itemvalue="Gradle.AppTest" />
         <item itemvalue="Gradle.AppTest.appHasAGreeting" />
-        <item itemvalue="Application.DynamicArrayRunner" />
-        <item itemvalue="Application.ParkingBill" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +277,7 @@
       <workItem from="1724819975684" duration="10169000" />
       <workItem from="1725250413226" duration="9294000" />
       <workItem from="1725264191959" duration="3502000" />
+      <workItem from="1725278869083" duration="5364000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial commit">
       <created>1724820474688</created>
@@ -283,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725258190357</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="chore: add gradle as the build tool">
+      <created>1725279030250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725279030250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +341,16 @@
     <MESSAGE value="Complete longest ZigZag exercise on Codility" />
     <MESSAGE value="Complete initial exercise for DynamicArray structure on neetccode" />
     <MESSAGE value="Added &quot;out/&quot; to ignore files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;out/&quot; to ignore files" />
+    <MESSAGE value="chore: add gradle as the build tool" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add gradle as the build tool" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="codility.LongestZigZagLength$Tree" memberName="l" />
+        <PinnedItemInfo parentTag="codility.LongestZigZagLength$Tree" memberName="r" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

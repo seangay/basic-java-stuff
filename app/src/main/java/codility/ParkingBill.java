@@ -3,7 +3,6 @@ package codility;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
 
 
 /**
@@ -32,29 +31,7 @@ import java.util.Arrays;
  * In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment. *
  */
 public class ParkingBill {
-    public static void main(String[] args) {
-        var solution = new Solution();
-
-        var testValues = new String[][]{
-                new String[]{ "10:00", "13:21" }, // 17
-                new String[]{ "09:42", "11:42" }, // 9
-                new String[]{ "23:11", "23:59" }, // 5
-                new String[]{ "00:00", "23:59" }, // 97
-                new String[]{ "12:00", "12:59" }, // 5
-                new String[]{ "12:00", "13:01" }, // 9
-                new String[]{ "12:59", "16:37" }, // 17
-                new String[]{ "03:03", "15:59" }, // 53
-
-        };
-
-        for (String[] testValue : testValues) {
-            System.out.println("testValue = " + Arrays.toString(testValue));
-            var totalCost = solution.solution(testValue[0], testValue[1]);
-            System.out.println("totalCost = " + totalCost);
-        }
-    }
-
-    private static class Solution {
+    static class Solution {
         private static final int HOURLY_COST = 4;
         private static final int ENTRY_FEE = 2;
         private static final int FIRST_HOUR_COST = 3;
