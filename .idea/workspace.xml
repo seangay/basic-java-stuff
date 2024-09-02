@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c04385cc-1ffa-4128-a629-3e6ec030414d" name="Changes" comment="Complete longest ZigZag exercise on Codility">
-      <change afterPath="$PROJECT_DIR$/src/codility/TreeWalkerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetcode/DynamicArrayRunner.java" afterDir="false" />
+    <list default="true" id="c04385cc-1ffa-4128-a629-3e6ec030414d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +135,7 @@
       <workItem from="1724736298684" duration="30000" />
       <workItem from="1724736332322" duration="5047000" />
       <workItem from="1724819975684" duration="10169000" />
-      <workItem from="1725250413226" duration="6403000" />
+      <workItem from="1725250413226" duration="7256000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial commit">
       <created>1724820474688</created>
@@ -159,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724820870134</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Complete longest ZigZag exercise on Codility">
+      <created>1725257305219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725257305219</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Complete initial exercise for DynamicArray structure on neetccode">
+      <created>1725257425057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725257425057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +183,8 @@
     <MESSAGE value="Solution for ParkingBill example on Codility" />
     <MESSAGE value="fix: restrict access to internal constants" />
     <MESSAGE value="Complete longest ZigZag exercise on Codility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete longest ZigZag exercise on Codility" />
+    <MESSAGE value="Complete initial exercise for DynamicArray structure on neetccode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete initial exercise for DynamicArray structure on neetccode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
