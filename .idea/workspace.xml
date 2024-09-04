@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c04385cc-1ffa-4128-a629-3e6ec030414d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +287,7 @@
       <workItem from="1725250413226" duration="9294000" />
       <workItem from="1725264191959" duration="3502000" />
       <workItem from="1725278869083" duration="26762000" />
-      <workItem from="1725353070486" duration="4634000" />
+      <workItem from="1725353070486" duration="4877000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial commit">
       <created>1724820474688</created>
@@ -360,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725432799456</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix: hopefully the right path for the report files">
+      <created>1725433546902</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725433546902</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +383,8 @@
     <MESSAGE value="chore: move existing classes into app module&#10;&#10;- Converted across to use JUnit5 parameterized tests" />
     <MESSAGE value="feat: initial commit of seek coding challenge&#10;&#10;- included spring as I was planning on setting up on this project but should really have been a separated commit" />
     <MESSAGE value="fix: correct syntax for checkout step" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: correct syntax for checkout step" />
+    <MESSAGE value="fix: hopefully the right path for the report files" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: hopefully the right path for the report files" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
