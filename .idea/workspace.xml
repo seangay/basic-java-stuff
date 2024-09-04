@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c04385cc-1ffa-4128-a629-3e6ec030414d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/seek/CodingChallengeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/seek/TrafficCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/seek/TrafficCounterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/seek/CodingChallengeDataFile.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +44,13 @@
                 <item name="basic-java-stuff" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="basic-java-stuff" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -94,11 +95,12 @@
     "database.data.extractors.current.id": "Tab-separated (TSV)_id",
     "last_opened_file_path": "/Users/seangay/workspace/github/basic-java-stuff",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.1640625",
     "project.structure.side.proportion": "0.33986288",
     "ruby.rails.projectView.checked": "true",
     "settings.editor.selected.configurable": "database.data.views",
+    "spring.configuration.checksum": "bacd20a5cc91f66665ebb52ab9252d77",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -110,7 +112,7 @@
       <recent name="codility" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TrafficCounterTest.processFileAndInterrogateReportableValues">
+  <component name="RunManager" selected="Gradle.basic-java-stuff:app [build]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="WIDTH" value="400" />
@@ -118,27 +120,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method />
     </configuration>
-    <configuration name="LongestZigZagLengthTest$TreeParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.LongestZigZagLengthTest$TreeParser" />
-      <module name="basic-java-stuff.app.test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestZigZagLengthTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrafficCounterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,30 +139,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;codility.LongestZigZagLengthTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ParkingBillTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;codility.ParkingBillTest&quot;" />
+            <option value="&quot;seek.TrafficCounterTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,6 +195,48 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="basic-java-stuff:app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="basic-java-stuff:app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -257,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.basic-java-stuff:app [build]" />
+        <item itemvalue="Gradle.basic-java-stuff:app [clean]" />
+        <item itemvalue="Gradle.TrafficCounterTest" />
         <item itemvalue="Gradle.TrafficCounterTest.processFileAndInterrogateReportableValues" />
         <item itemvalue="Gradle.TrafficCounterTest.shouldLoadTheFile" />
-        <item itemvalue="Gradle.LongestZigZagLengthTest" />
-        <item itemvalue="Application.LongestZigZagLengthTest$TreeParser" />
-        <item itemvalue="Gradle.ParkingBillTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +287,8 @@
       <workItem from="1724819975684" duration="10169000" />
       <workItem from="1725250413226" duration="9294000" />
       <workItem from="1725264191959" duration="3502000" />
-      <workItem from="1725278869083" duration="22962000" />
+      <workItem from="1725278869083" duration="26762000" />
+      <workItem from="1725353070486" duration="3903000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial commit">
       <created>1724820474688</created>
@@ -338,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725285419605</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: initial commit of seek coding challenge&#10;&#10;- included spring as I was planning on setting up on this project but should really have been a separated commit">
+      <created>1725341809401</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725341809401</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +368,8 @@
     <MESSAGE value="Added &quot;out/&quot; to ignore files" />
     <MESSAGE value="chore: add gradle as the build tool" />
     <MESSAGE value="chore: move existing classes into app module&#10;&#10;- Converted across to use JUnit5 parameterized tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: move existing classes into app module&#10;&#10;- Converted across to use JUnit5 parameterized tests" />
+    <MESSAGE value="feat: initial commit of seek coding challenge&#10;&#10;- included spring as I was planning on setting up on this project but should really have been a separated commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: initial commit of seek coding challenge&#10;&#10;- included spring as I was planning on setting up on this project but should really have been a separated commit" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
