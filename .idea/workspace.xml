@@ -288,7 +288,7 @@
       <workItem from="1725250413226" duration="9294000" />
       <workItem from="1725264191959" duration="3502000" />
       <workItem from="1725278869083" duration="26762000" />
-      <workItem from="1725353070486" duration="3903000" />
+      <workItem from="1725353070486" duration="4634000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial commit">
       <created>1724820474688</created>
@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725341809401</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: correct syntax for checkout step">
+      <created>1725432799456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725432799456</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +376,8 @@
     <MESSAGE value="chore: add gradle as the build tool" />
     <MESSAGE value="chore: move existing classes into app module&#10;&#10;- Converted across to use JUnit5 parameterized tests" />
     <MESSAGE value="feat: initial commit of seek coding challenge&#10;&#10;- included spring as I was planning on setting up on this project but should really have been a separated commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: initial commit of seek coding challenge&#10;&#10;- included spring as I was planning on setting up on this project but should really have been a separated commit" />
+    <MESSAGE value="fix: correct syntax for checkout step" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: correct syntax for checkout step" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
