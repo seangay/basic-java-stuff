@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c04385cc-1ffa-4128-a629-3e6ec030414d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-test-report.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-test-report.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +288,7 @@
       <workItem from="1725250413226" duration="9294000" />
       <workItem from="1725264191959" duration="3502000" />
       <workItem from="1725278869083" duration="26762000" />
-      <workItem from="1725353070486" duration="9439000" />
+      <workItem from="1725353070486" duration="10217000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial commit">
       <created>1724820474688</created>
@@ -388,11 +388,29 @@
       <option name="project" value="LOCAL" />
       <updated>1725434451223</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="chore: update build yaml &#10;&#10;- set specific version for setup-gradle&#10;- add links to test-reporter action page">
+      <created>1725496553998</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725496553998</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: initial commit" />
@@ -408,7 +426,9 @@
     <MESSAGE value="fix: hopefully the right path for the report files" />
     <MESSAGE value="fix: fixed issue with debug line" />
     <MESSAGE value="fix: add ability to write checks for test report" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add ability to write checks for test report" />
+    <MESSAGE value="chore: update build yaml &#10;&#10;- set specific version for setup-gradle&#10;- add links to test-reporter action page" />
+    <MESSAGE value="chore: update build yaml&#10;&#10;- set specific version for setup-gradle&#10;- add links to test-reporter action page&#10;&#10;Fixes: #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update build yaml &#10;&#10;- set specific version for setup-gradle&#10;- add links to test-reporter action page" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
